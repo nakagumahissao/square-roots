@@ -79,8 +79,8 @@ fn main() {
     let correct = number.sqrt();
 
     println!("\nRESULTS:");
-    println!("Approximation: {:.10}", val);
+    println!("Approximation: {:.15}", val);
     println!("Iterations:    {}", iters);
-    println!("Standard Lib:  {:.10}", correct);
-    println!("Difference:    {:.10}", (val - correct).abs());
+    println!("Standard Lib:  {:.15}", correct);
+    println!("Difference:    {:.15}", (val - correct).abs());
 }
